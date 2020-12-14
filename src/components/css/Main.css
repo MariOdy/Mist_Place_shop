@@ -1,0 +1,247 @@
+/* main ad */
+.main-ad-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 82%;
+    height: 400px;
+    margin: 10px auto;
+    justify-content: space-between;
+    
+}
+.main-ad-items-left{
+    width: 73.5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.main-ad-l{
+    height: 48.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    border-radius: 10px;
+
+}
+.left-bottom{
+    background-image: url('https://cdn.shopify.com/s/files/1/0157/7750/products/natural-mistletoe-wreath-03_1024x1024.jpg?v=1602788141');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.main-ad-l-top{
+    width: 32.3%;
+    height: 100%;
+    border-radius: 10px;
+}
+.l-top-1{
+    background-image: url('https://cdn.shopify.com/s/files/1/0157/7750/products/rc_848_wooden_merry__zttis_1024x1024.jpg?v=1601578593');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.l-top-2{
+    background-image: url('https://cdn.shopify.com/s/files/1/0157/7750/products/MG_7284_edited-1_3912b100-3cee-4ce7-9e2d-4514bc8f8a41_1024x1024.jpg?v=1603717687');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.l-top-3{
+    background-image: url('https://cdn.shopify.com/s/files/1/0157/7750/products/SilverGlitterStarStickers12349_W1400_1024x1024.jpg?v=1601492187');
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.main-ad-items-right{
+    width: 25.2%;
+    height: 100%;
+    background-image: url('https://cdn.shopify.com/s/files/1/0157/7750/products/woodenstandingmoose_1024x1024.jpg?v=1601492185');
+    background-size: cover;
+    background-position: -4vw;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.main-ad-container a{
+    text-decoration: none;
+    color: rgb(248, 248, 248);
+    font-family: 'Comfortaa';
+    font-size: 2rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 200px;
+    opacity: 0;
+    display: block;
+}
+
+.main-ad-items-right a{
+    line-height: 400px;
+    height: 400px;
+}
+
+
+
+/* about */
+.container-about{
+    width: 82%;
+    height: 200px;
+    margin: 40px auto;
+    display: block;
+    font-family: 'Comfortaa';
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 300;
+}
+.container-about span{
+    font-family: 'Vibur';
+    font-size: 3.7rem;
+    line-height: 70px;
+}
+
+
+/* advantages */
+.container-advantages{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    width: 82%;
+    height: 150px;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Comfortaa';
+}
+.advantages-card{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.advantages-card-item{
+    width: 50%;
+    margin: 0 auto;
+    height: 50%;
+}
+.adv-item-text{
+    width: 90%;
+    height: 30%;
+    border: none;
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(102, 102, 102);
+}
+.container-advantages i{
+    font-size: 5rem;
+    color: rgb(250, 115, 74);
+    
+}
+
+/* main block */
+.main-block-container{
+    width: 82%;
+    height: 100%;
+    margin: 50px auto;
+    text-align: center;
+    font-family: 'Comfortaa';
+    font-size: 1.3rem;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.main-block-header{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    border-bottom: .2px solid grey;
+    border-radius: 5px;
+}
+.main-block-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    
+}
+.block-card-item{
+    width: 25%;
+    height: 370px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block-card-item:hover{
+    box-shadow: 0px 0px 16px 1px rgba(216, 216, 216, 0.548);
+    border-radius: 15px;
+}
+.block-card-item img{
+    width: 100%;  
+    border-radius: 15px;  
+    
+}
+.currency{
+    display: block;
+    font-family: 'Comfortaa';
+    font-size: .7rem!important;
+    margin-top: 4.5px;
+}
+
+.block-card-item div{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.block-card-item div:hover{
+    text-decoration: underline;
+}
+.block-card-item span{
+    font-weight: 100;
+    font-size: .6rem;
+}
+
+.bottom-card{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Comfortaa';
+    margin: 5px auto;
+}
+.main-block-container a{
+    color: Black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.buy-button{
+    width: 65px;
+    height: 28px;
+    margin-left: 50px;
+    margin-top: -5px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(240, 240, 240);
+    font-size: .8rem;
+    font-family: 'Comfortaa';
+    color: black;
+    cursor: pointer;
+}
+.buy-button:hover{
+    background-color: rgba(250, 115, 74, 0.616);
+}
